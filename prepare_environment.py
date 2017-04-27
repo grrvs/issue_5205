@@ -4,7 +4,6 @@
 import sys
 import os
 import subprocess
-import requests
 
 """
 files to move / rename in order to 
@@ -104,6 +103,7 @@ except Exception as e:
     sys.exit(1)
 
 try:
+    import requests
     data = open('fancy_dashboard.json')
     r = requests.post(
      url='http://admin:admin@127.0.0.1:8004/api/dashboards/db',
