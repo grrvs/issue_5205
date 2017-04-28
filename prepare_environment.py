@@ -115,4 +115,4 @@ except Exception as e:
     print e
     sys.exit(1)
 
-print "all done - feel free to start\n> python check_for_issues.py\nor\n> python check_for_issues lazy\nfor edgy people"
+print "all done - feel free to start\n> python check_for_issue.py\nor\n> python check_for_issue.py lazy\nfor edgy people"
